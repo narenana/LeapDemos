@@ -1,0 +1,527 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"typ",
+				"reportType"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"font",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2669,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/X/practo/Code/practo/Public_html/templates/reports/payment/vendor-wise-tpl.html",
+		"/X/practo/Code/practo/application/views/scripts/signup/newpractice.phtml",
+		"/X/practo/Code/practo/application/forms/NewPractice.php",
+		"/X/practo/Code/practo/application/forms/Signup.php",
+		"/X/practo/Code/practo/Public_html/js/hello/controllers/logController.js",
+		"/X/practo/Code/practo/library/Turbodoc/TurboAccount/CreateUser.php",
+		"/X/practo/Code/practo/Public_html/js/ceb/controllers/patient/prescriptionController.js",
+		"/X/practo/Code/practo/Public_html/js/calendar/app.js",
+		"/X/practo/Code/practo/Public_html/js/calendar/services/appointments.js",
+		"/X/practo/Code/practo/Public_html/templates/calendar/dayavailibility.tpl.html",
+		"/X/practo/Code/practo/Public_html/js/calendar/controllers/calendarController.js",
+		"/X/practo/Code/practo/application/config/assetbundler.ini",
+		"/X/practo/Code/practo/Public_html/js/pr_script.js",
+		"/X/practo/Code/practo/Public_html/js/angular_common/practofilters.js",
+		"/X/practo/Code/practo/application/views/scripts/calendar/scheduler.phtml",
+		"/X/practo/Code/practo/Public_html/js/ceb/controllers/cebController.js",
+		"/X/practo/Code/practo/Public_html/js/routers/calendar.js",
+		"/X/practo/Code/practo/Public_html/js/views/calendar/FullCalendarInit.js",
+		"/X/practo/Code/practo/Public_html/js/reporting/graph/DayGraph.js",
+		"/X/practo/Code/practo/Public_html/js/reporting/controllers/PatientAmountDueController.js",
+		"/X/practo/Code/practo/Public_html/js/reporting/controllers/DailySummaryController.js",
+		"/X/practo/Code/practo/Public_html/js/reporting/controllers/AppointmentReportingController.js",
+		"/X/practo/Code/practo/Public_html/js/reporting/controllers/InvoiceReportingController.js",
+		"/X/practo/Code/practo/Public_html/js/reporting/controllers/PatientReportingController.js",
+		"/X/practo/Code/practo/Public_html/css/reporting/reporting.css",
+		"/X/practo/Code/practo/Public_html/js/reporting/controllers/ReportingController.js",
+		"/X/practo/Code/practo/Public_html/js/angular_common/practodirectives.js",
+		"/X/practo/Code/practo/Public_html/css/ceb.css",
+		"/X/practo/Code/practo/application/views/scripts/app/index.phtml",
+		"/X/practo/Code/practo/application/config/config.ini.format",
+		"/X/practo/Code/practo/application/config/config.ini",
+		"/X/practo/Code/practo/Public_html/templates/billing/invoice.tpl.html",
+		"/X/practo/Code/practo/Public_html/js/ceb/controllers/patient/profileController.js",
+		"/X/practo/Code/practo/Public_html/js/settings/controllers/printsettingscontroller.js",
+		"/X/practo/Code/practo/Public_html/js/settings/printsettings.js",
+		"/X/practo/Code/practo/Public_html/js/ceb/app.js",
+		"/X/practo/Code/practo/Public_html/templates/emr/prescriptions.tpl.html",
+		"/X/practo/Code/practo/application/controllers/BillsController.php",
+		"/X/practo/Code/practo/library/vendor/google-api-client/test/general/ApiMediaFileUploadTest.php",
+		"/X/practo/Code/practo/Public_html/js/views/calendar/appointmenteditor.js",
+		"/X/practo/Code/practo/application/views/scripts/calendar/index.phtml",
+		"/X/practo/Code/practo/Public_html/index.php",
+		"/X/practo/Code/practo/Public_html/js/views/calendar/eventeditor.js",
+		"/X/practo/Code/practo/library/Turbodoc/Config.php",
+		"/Z/practo/Code/practo/application/views/scripts/calendar/index.phtml",
+		"/Z/practo/Code/practo/Public_html/js/views/calendar/appointmenteditor.js",
+		"/Z/practo/Code/practo/Public_html/js/pr_script.js",
+		"/Z/practo/Code/practo/application/views/scripts/settings/billidgeneration.phtml",
+		"/Z/practo/Code/practo/application/views/scripts/settings/receiptidgeneration.phtml",
+		"/Z/practo/Code/practo/application/config/deploy.rb.format",
+		"/Z/practo/Code/practo/application/config/defaultvalue.ini",
+		"/Z/practo/Code/practo/application/config/config.ini",
+		"/Z/practo/Code/practo/application/config/config.ini.format",
+		"/Z/practo/Code/practo/migrations/migrationscripts/migrationscripts/279_add_isdeleted_expenses.php",
+		"/Z/practo/Code/practo/migrations/migrationscripts/migrationscripts/278_add_bill_invoice_autoIndex_calendarsettings.php",
+		"/X/practo/Code/practo/Public_html/js/ceb/controllers/patient/soapController.js",
+		"/X/practo/Code/practo/Public_html/templates/patientroot/medical.tpl.html",
+		"/X/practo/Code/practo/Public_html/templates/contacts/patients.tpl.html",
+		"/X/practo/Code/practo/Public_html/js/ceb/controllers/listing/patientsListController.js",
+		"/X/practo/Code/practo/migrations/datamigration/prescription_adddoctor.php",
+		"/X/practo/Code/practo/library/Turbodoc/Print.php",
+		"/X/practo/Code/practo/Public_html/css/productbar.css",
+		"/X/practo/Code/practo/Public_html/templates/dialogs/duplicatePatient.tpl.html",
+		"/X/practo/Code/practo/Public_html/js/prescriptions.js",
+		"/X/practo/Code/practo/Public_html/js/drugs/controllers/drugcontroller.js",
+		"/X/practo/Code/practo/Public_html/templates/patientroot/prescriptions.tpl.html",
+		"/X/practo/Code/practo/Public_html/templates/patientroot/editprofile.html",
+		"/X/practo/Code/practo/application/views/scripts/mails/upgradeAvailable.phtml",
+		"/X/practo/Code/practo/application/views/scripts/mails/upgradedToV6.phtml",
+		"/C/Users/narenana/Desktop/Upgrade notification mailer/index.html",
+		"/X/practo/Code/practo/Public_html/css/common.css",
+		"/X/practo/Code/practo/application/views/scripts/dashboard/getproductupdate-post.phtml",
+		"/X/practo/Code/practo/Public_html/js/ceb/controllers/patient/appointmentsController.js",
+		"/X/practo/Code/practo/Public_html/js/ceb/controllers/menuController.js",
+		"/X/practo/Code/practo/Public_html/js/ceb/classes/records/Navigation.js",
+		"/X/practo/Code/practo/Public_html/templates/dateWiseData.tpl.html",
+		"/X/practo/Code/practo/application/controllers/AppointmentController.php",
+		"/X/practo/Code/practo/Public_html/templates/contacts/appointment.tpl.html",
+		"/X/practo/Code/practo/Public_html/templates/emr/workdone.tpl.html",
+		"/X/practo/Code/practo/Public_html/js/angular_common/accesscontrol.js",
+		"/X/practo/Code/practo/Public_html/templates/emr/soap.tpl.html",
+		"/X/practo/Code/practo/Public_html/templates/emr/plan.tpl.html",
+		"/X/practo/Code/practo/application/controllers/DashboardController.php",
+		"/X/practo/Code/practo/Public_html/js/views/calendar/calendar.js",
+		"/X/practo/Code/practo/Public_html/js/views/calendar/editordoctorschedule.js",
+		"/X/practo/Code/practo/Public_html/js/customsms.js",
+		"/X/practo/Code/practo/application/controllers/CustomsmsController.php",
+		"/X/practo/Code/practo/Public_html/templates/drugs/drugs.tpl.html",
+		"/X/practo/Code/practo/Public_html/js/ceb/controllers/patient/patientController.js",
+		"/X/practo/Code/practo/Public_html/js/models/appointment.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"X:\\practo\\Code\\practo\\Public_html\\templates"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"reportType",
+			"hoverTimer",
+			"mouseover",
+			"th",
+			"loading-image",
+			"newSlotObject",
+			"slotsArray",
+			"newSlotObject",
+			"doctor",
+			"Doctor",
+			"doctor",
+			"Doctor",
+			"doctor",
+			"Doctor",
+			"doctor",
+			"Doctor",
+			"doctor",
+			"marku",
+			"filter",
+			"plan",
+			"treatmentplandet\ntreatmentplandet",
+			"treatmentplandet",
+			"script",
+			"treatmentPlansArray",
+			"patientFetchLimit",
+			"drugTypeArray",
+			"document",
+			"mast",
+			"startTimer",
+			"newlines",
+			"lines",
+			"label",
+			"font_",
+			"wordpre",
+			"showAppointmentEditor",
+			"GlobalBulkLimit",
+			"parseint",
+			"nextPatientNumber",
+			"account"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"reports/index",
+				"application/views/scripts/reports/index.phtml"
+			],
+			[
+				"saveass",
+				"tools/saveAssets.php"
+			],
+			[
+				"saveasse",
+				"push/node_modules/newrelic/test/integration/versioned/connect-1/node_modules/connect/lib/middleware/session/session.js"
+			],
+			[
+				"createuser",
+				"library/Turbodoc/TurboAccount/CreateUser.php"
+			],
+			[
+				"asset",
+				"application/config/assetbundler.ini"
+			],
+			[
+				"pr_sct",
+				"Public_html/js/pr_script.js"
+			],
+			[
+				"filters",
+				"Public_html/js/angular_common/practofilters.js"
+			],
+			[
+				"cebcontro",
+				"Public_html/js/ceb/controllers/cebController.js"
+			],
+			[
+				"fullcal",
+				"Public_html/js/views/calendar/FullCalendarInit.js"
+			],
+			[
+				"rout/cal",
+				"Public_html/js/routers/calendar.js"
+			],
+			[
+				"calendarcontro",
+				"Public_html/js/calendar/controllers/calendarController.js"
+			],
+			[
+				"reporting",
+				"Public_html/css/reporting/reporting.css"
+			],
+			[
+				"report",
+				"Public_html/js/reporting/controllers/ReportingController.js"
+			],
+			[
+				"directives",
+				"Public_html/js/angular_common/practodirectives.js"
+			],
+			[
+				"ceb.css",
+				"Public_html/css/ceb.css"
+			],
+			[
+				"app/inde",
+				"application/views/scripts/app/index.phtml"
+			],
+			[
+				"profilecon",
+				"Public_html/js/ceb/controllers/patient/profileController.js"
+			],
+			[
+				"ceb",
+				"Public_html/js/ceb/controllers/cebController.js"
+			],
+			[
+				"filt",
+				"library/vendor/google-api-client/test/general/ApiMediaFileUploadTest.php"
+			],
+			[
+				"cebcont",
+				"application/controllers/BillsController.php"
+			],
+			[
+				"cal/index",
+				"application/views/scripts/calendar/index.phtml"
+			],
+			[
+				"index",
+				"Public_html/index.php"
+			],
+			[
+				"editor",
+				"Public_html/js/views/calendar/appointmenteditor.js"
+			],
+			[
+				"pr_scrip",
+				"Public_html/js/pr_script.js"
+			],
+			[
+				"patili",
+				"Public_html/js/ceb/controllers/listing/patientsListController.js"
+			],
+			[
+				"pr_script",
+				"Public_html/js/pr_script.js"
+			],
+			[
+				"pr",
+				"library/Turbodoc/Print.php"
+			],
+			[
+				"dupl",
+				"Public_html/templates/dialogs/duplicatePatient.tpl.html"
+			],
+			[
+				"prescriptioncontr",
+				"Public_html/js/ceb/controllers/patient/prescriptionController.js"
+			],
+			[
+				"drugcontroll",
+				"Public_html/js/drugs/controllers/drugcontroller.js"
+			],
+			[
+				"emr/presc",
+				"Public_html/templates/emr/prescriptions.tpl.html"
+			],
+			[
+				"edit",
+				"Public_html/templates/patientroot/editprofile.html"
+			],
+			[
+				"soapco",
+				"Public_html/js/ceb/controllers/patient/soapController.js"
+			],
+			[
+				"profilecontr",
+				"Public_html/js/ceb/controllers/patient/profileController.js"
+			],
+			[
+				"app/index",
+				"application/views/scripts/app/index.phtml"
+			],
+			[
+				"editprof",
+				"Public_html/templates/patientroot/editprofile.html"
+			],
+			[
+				"common",
+				"Public_html/css/common.css"
+			],
+			[
+				"pr_sc",
+				"Public_html/js/pr_script.js"
+			],
+			[
+				"appcontr",
+				"Public_html/js/ceb/controllers/patient/appointmentsController.js"
+			],
+			[
+				"appointmentcontr",
+				"application/controllers/AppointmentController.php"
+			],
+			[
+				"menucon",
+				"Public_html/js/ceb/controllers/menuController.js"
+			],
+			[
+				"navig",
+				"Public_html/js/ceb/classes/records/Navigation.js"
+			],
+			[
+				"accessc",
+				"Public_html/js/angular_common/accesscontrol.js"
+			],
+			[
+				"emr/wor",
+				"Public_html/templates/emr/workdone.tpl.html"
+			],
+			[
+				"prescriptions",
+				"Public_html/js/prescriptions.js"
+			],
+			[
+				"dashboardcon",
+				"application/controllers/DashboardController.php"
+			],
+			[
+				"calendar/index",
+				"application/views/scripts/calendar/index.phtml"
+			],
+			[
+				"customsms",
+				"Public_html/js/customsms.js"
+			],
+			[
+				"patientli",
+				"Public_html/js/ceb/controllers/listing/patientsListController.js"
+			],
+			[
+				"patientcontr",
+				"Public_html/js/ceb/controllers/patient/patientController.js"
+			],
+			[
+				"cebcontr",
+				"Public_html/js/ceb/controllers/cebController.js"
+			],
+			[
+				"profilecontroller",
+				"Public_html/js/ceb/controllers/patient/profileController.js"
+			],
+			[
+				"drugcont",
+				"Public_html/js/drugs/controllers/drugcontroller.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,198 @@
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <title>Leap WebSocket JSON Viewer</title>
+
+    <style>
+        #hand.scissor{
+           background-position: -116px 0;
+           width:130px;
+        }
+        #hand.paper{
+          background-position: 0;
+        }
+        #hand.rock{
+          background-position: -232px 0;
+        }
+        #hand{
+          width:110px;
+          background-image: url("img/rock-paper-scissors.jpg");
+          height:230px;
+          display: none;
+        }
+    </style>
+
+    <script>
+
+    $(function(){
+       //$("#hand").hide();
+    })
+    var ws;
+    var paused = false;
+    var pauseOnGesture = false;
+
+    // Support both the WebSocket and MozWebSocket objects
+    if ((typeof(WebSocket) == 'undefined') &&
+        (typeof(MozWebSocket) != 'undefined')) {
+      WebSocket = MozWebSocket;
+    }
+
+    // Create the socket with event handlers
+    function init() {
+      // Create and open the socket
+      ws = new WebSocket("ws://localhost:6437/");
+
+      // On successful connection
+      ws.onopen = function(event) {
+        var enableMessage = JSON.stringify({enableGestures: true});
+        ws.send(enableMessage); // Enable gestures
+        document.getElementById("main").style.visibility = "visible";
+        document.getElementById("connection").innerHTML = "WebSocket connection open!";
+      };
+      var timerDone = false;
+      var timer = 5;
+      
+      var intervalTimer = window.setInterval(function(){
+
+        
+      	//$("#message").html("");
+        timer --;
+        if(timer == 0){
+          timerDone = true;
+          window.clearInterval(intervalTimer);
+        }
+        $("#counter").html(timer+ " secs...");
+      	
+      },1000);
+      
+      // On message received
+      ws.onmessage = function(event) {
+        if (!paused) {
+          var obj = JSON.parse(event.data);
+          var str = JSON.stringify(obj, undefined, 2);
+          $("#output").html('<pre>' + str + '</pre>');
+    	  
+    	  if(obj && obj.hands){
+      		//console.log(obj.pointables);
+         
+
+            if(obj.hands){
+                if(obj.pointables.length){
+                 if(obj.pointables.length == 2){
+                   string = "scissor"
+                }
+                else if(obj.pointables.length >2){
+                   string = "paper"
+                }else{
+                  string = "rock"
+                }
+              }
+            }
+            else{
+              string = "Nothing"
+            }
+
+            
+           
+          
+      		//$("#fingers").innerHTML =  obj.pointables.length ;
+    	  }
+        else{
+          string = "Nothing"
+        }
+        if(timerDone){
+            if(obj.hands && obj.hands.length){
+               $("#hand").addClass(string)
+                          .fadeIn();
+
+            }
+            $("#fingers").html(string)
+            timerDone = false;
+        }
+    	  
+    	  
+          if (pauseOnGesture && obj.gestures.length > 0) {
+            togglePause();
+          }
+        }
+      };
+
+      // On socket close
+      ws.onclose = function(event) {
+        ws = null;
+        document.getElementById("main").style.visibility = "hidden";
+        document.getElementById("connection").innerHTML = "WebSocket connection closed";
+      }
+
+      // On socket error
+      ws.onerror = function(event) {
+        alert("Received error");
+      };
+    }
+
+    function togglePause() {
+      paused = !paused;
+
+      if (paused) {
+        document.getElementById("pause").innerText = "Resume";
+      } else {
+        document.getElementById("pause").innerText = "Pause";
+      }
+    }
+
+    function pauseForGestures() {
+      if (document.getElementById("pauseOnGesture").checked) {
+        pauseOnGesture = true;
+      } else {
+        pauseOnGesture = false;
+      }
+    }
+    </script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+</head>
+<body onload="init();">
+  <div class="hidden">
+    <h1>Leap WebSocket JSON Viewer </h1>
+    <button id="pause" onclick="togglePause()">Pause</button>
+    <input type="checkbox" id="pauseOnGesture" onclick="pauseForGestures()">Pause on gesture</input>
+    <div id="connection">WebSocket not connected</div>
+  </div>
+
+  <div class="navbar">
+    <div class="navbar-inner">
+      <a id="message" class="brand">ROCK PAPER SCISSOR </a>
+      
+    </div>
+  </div>
+  <div class="row span6"  class="hero-unit">
+     <div class="row">
+        <div class="offset3 span6">
+          <h1>
+          Pick in <span id="counter" ></span>
+        </h1>
+          <br/>
+          <br/>
+          <br/>
+
+          <h3 id="fingers" ></h3>
+        </div>
+    </div>
+    <div class="row">
+      <div id="hand" class="offset3 span6"></div>
+    </div>
+
+   
+
+  </div>
+
+   <div id="output" class="span3 hidden">
+    </div>
+
+  <div id="main" style="visibility:hidden" >
+  
+    <div style="font-size:75px;"> <span id="fingers"></span> </div>
+  </div>
+</body>
+</html>
